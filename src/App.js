@@ -11,7 +11,7 @@ import './App.css';
 //import LifecycleA from  './LifeCycleA';
 //import Parecomp from  './ParentComponent';
 //import Todoo2 from  './Todo2';
-import Todoo3 from  './Todoo/TodoUI';
+import Todoo3 from  './TodoUI';
 function App() {
   return (
     <div className="App">
