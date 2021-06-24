@@ -135,7 +135,7 @@ export default class Todoo extends Component {
                 <button onClick={this.onShowActiveTasks}>Show active Tasks</button>&nbsp;
                 <button onClick={this.onCompletedTasks}>Show completed Tasks</button></div>&nbsp;
                 <div> {this.state.activeTaskShow?<> <input value={this.state.editText}  onChange={this.onEditing} placeholder="edit the task"/> &nbsp;
-                     <button onClick={this.editElement}>Edittheelement</button></>null}</div>&nbsp;
+                     <button onClick={this.editElement}>Edittheelement</button></>:null}</div>&nbsp;
                 {this.state.taskShow && <TodisplayActiveTasks h={this.state.visibleTaskArray}  callDElOrCompleted={this.onDelOrCOmpleted} callEdit={this.onEdit} activeTaskShow={this.state.activeTaskShow} title={this.state.tasksTitle} />}
             </div>
         )
